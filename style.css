@@ -77,3 +77,25 @@ main {
   border-radius: 8px;
   margin-top: 0.5em;
 }
+/* 他のCSSが続いていると仮定 */
+.slider-button {
+  background-color: #ddd;
+  /* ... */
+}
+
+/* ←このあとに追記 */
+
+.slider-container {
+  position: relative;
+}
+
+.image-counter {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
