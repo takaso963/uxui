@@ -7,8 +7,7 @@ const imageCounter = document.getElementById("image-counter");
 /***** スライド用データ *****/
 const slides = [
   { title: "今日のメニュー", image: "hiiragi1.jpg" },
-  { title: "今日のメニュー", image: "menu2.jpg" },
-  { title: "今日のメニュー", image: "menu3.jpg" }
+  { title: "今日のメニュー", image: "bread.jpg" },
 ];
 
 let currentIndex = 0;
